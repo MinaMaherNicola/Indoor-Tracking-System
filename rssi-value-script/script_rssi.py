@@ -14,7 +14,7 @@ def main():
 
     # But your router name in here
     # If there is more than one add all the names seperated by commas
-    ssids = ['Samir','Amir','Abdallah'] # edit name of ssids for ex tp-link123
+    ssids = ['AP-00', 'AP-01', 'AP-02', 'AP-03', 'AP-04', 'AP-05', 'AP-06'] # edit name of ssids for ex tp-link123
 
     # ap_info = rssi_scanner.getAPinfo(networks=ssids, sudo=True)
 
@@ -40,7 +40,3 @@ def writer(header, data, filename):
         movies.writerow(header)
         for x in data:
             movies.writerow(x)
-
-
-
-
