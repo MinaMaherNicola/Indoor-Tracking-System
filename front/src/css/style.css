@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1a1a2e;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar {
+  border-bottom: 1px solid #e94560;
+  padding: 2rem 2rem;
+  width: 100%;
+  box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+.nav-bar__logo {
+  font-size: 1.6rem;
+}
+.nav-bar__logo-thin {
+  font-weight: 300;
+}
+
+.indicator {
+  margin: auto;
+  margin-top: 4rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: red;
+  border-radius: 100%;
+  box-shadow: 0rem 0rem 2rem red;
+}
+
+.map__img {
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+/*# sourceMappingURL=style.css.map */

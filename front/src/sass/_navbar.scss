@@ -1,0 +1,13 @@
+.nav-bar {
+  border-bottom: 1px solid $bright-red;
+  padding: 2rem 2rem;
+  width: 100%;
+  box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
+
+  &__logo {
+    font-size: 1.6rem;
+    &-thin {
+      font-weight: 300;
+    }
+  }
+}
