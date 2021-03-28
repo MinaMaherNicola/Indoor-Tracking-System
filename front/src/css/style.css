@@ -29,7 +29,12 @@ body {
   font-weight: 300;
 }
 
+.holder {
+  position: relative;
+}
+
 .indicator {
+  position: absolute;
   margin: auto;
   margin-top: 4rem;
   width: 3rem;
