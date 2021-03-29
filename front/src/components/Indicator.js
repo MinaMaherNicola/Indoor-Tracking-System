@@ -8,7 +8,8 @@ const squares = [
 ];
 
 const Indicator = ({ name }) => {
-  const position = squares[parseInt(name[-1]) - 1] || squares[0];
+  console.log(squares[parseInt(name[name.length - 1]) - 1]);
+  const position = squares[parseInt(name[name.length - 1]) - 1];
   return (
     <div
       style={{ position: 'absolute', top: position.top, left: position.left }}
