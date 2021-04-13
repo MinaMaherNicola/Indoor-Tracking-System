@@ -7,9 +7,9 @@ import axios from 'axios';
 // const url = 'http://127.0.0.1:5000/prototype';
 const url = 'https://ips-grad-project.herokuapp.com/prototype';
 const data = [
-  [-30, -17, -42, -40, -58, -56, -36, -52],
-  [-44, -20, -36, -28, -48, -58, -42, -54],
-  [-56, -32, -19, -24, -47, -60, -72, -48]
+  [-30, -17, -42, -40, -58, -56, -36, -52], // 1
+  [-44, -20, -36, -28, -48, -58, -42, -54], // 2
+  [-56, -32, -19, -24, -47, -60, -72, -48] // 3
 ];
 
 let currentSquare = 0;
@@ -35,7 +35,7 @@ const App = () => {
       getSquare();
     }, 6000);
 
-    console.log(`Inside useEffect: Square:${square}`);
+    // console.log(`Inside useEffect: Square:${square}`);
 
     return () => {
       clearInterval(intervalID);
