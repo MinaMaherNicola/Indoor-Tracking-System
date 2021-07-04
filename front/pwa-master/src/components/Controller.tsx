@@ -11,8 +11,8 @@ const Controller: React.FC<Props> = props => {
     <div>
       <h2>{props.header}</h2>
       <div>
-        <Button functionality={props.apiFunction} name="S-01" />
-        <Button functionality={props.apiFunction} name="S-02" />
+        <Button functionality={props.apiFunction} name="s-01" />
+        <Button functionality={props.apiFunction} name="s-02" />
       </div>
     </div>
   );

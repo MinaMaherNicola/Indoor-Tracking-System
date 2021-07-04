@@ -6,7 +6,11 @@ interface Props {
 }
 
 const Button: React.FC<Props> = props => {
-  return <button onClick={() => props.functionality(props.name)}>{props.name}</button>;
+  return (
+    <button style={{ marginRight: '15px' }} onClick={() => props.functionality(props.name)}>
+      {props.name}
+    </button>
+  );
 };
 
 export default Button;
