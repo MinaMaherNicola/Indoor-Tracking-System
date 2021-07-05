@@ -18,7 +18,7 @@ html {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .app-container {
     background-color: black;
     height: 100vh;
@@ -34,8 +34,8 @@ html {
 
     .indicator {
       position: absolute;
-      left: 4rem;
-      top: 32%;
+      left: 18%;
+      // top: 32%;
     }
   }
 }

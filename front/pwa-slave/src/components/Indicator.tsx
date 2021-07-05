@@ -7,12 +7,12 @@ interface Props {
 
 const squares = {
   mobile: {
-    1: { top: '38%' },
-    2: { top: '28%' }
+    1: { top: '35%' },
+    2: { top: '20%' }
   },
   watch: {
-    1: { top: '42%' },
-    2: { top: '32%' }
+    1: { top: '30%' },
+    2: { top: '13%' }
   }
 };
 
